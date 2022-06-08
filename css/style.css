@@ -1,5 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Body */
+
+.row {
+    margin: 0 -20px;
 }
+
+.row > [class^="col"] {
+    background-color: lightskyblue;
+    min-height: 50px;
+    border: 2px solid white;
+}
+
+.col-6 > .row > [class^="col"] {
+    background-color: goldenrod;
+    padding: 5px;
+    min-height: 30px
+}
+
+

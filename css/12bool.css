@@ -1,0 +1,296 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Column */
+
+.row > [class^="col"] {
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+/* Griglia 12 */
+
+.row > .col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.row > .col-11 {
+    flex-basis: calc(100% / 12 * 11);
+    max-width: 100%;
+}
+
+.row > .col-10 {
+    flex-basis: calc(100% / 12 * 10);
+    max-width: 100%;
+}
+
+.row > .col-9 {
+    flex-basis: calc(100% / 12 * 9);
+    max-width: 100%;
+}
+
+.row > .col-8 {
+    flex-basis: calc(100% / 12 * 8);
+    max-width: 100%;
+}
+
+.row > .col-7 {
+    flex-basis: calc(100% / 12 * 7);
+    max-width: 100%;
+}
+
+.row > .col-6 {
+    flex-basis: calc(100% / 12 * 6);
+    max-width: 100%;
+}
+
+.row > .col-5 {
+    flex-basis: calc(100% / 12 * 5);
+    max-width: 100%;
+}
+
+.row > .col-4 {
+    flex-basis: calc(100% / 12 * 4);
+    max-width: 100%;
+}
+
+.row > .col-3 {
+    flex-basis: calc(100% / 12 * 3);
+    max-width: 100%;
+}
+
+.row > .col-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: 100%;
+}
+
+.row > .col-1 {
+    flex-basis: calc(100% / 12 * 1);
+    max-width: 100%;
+}
+
+/* Offset */
+
+.offset-12 {
+    margin-left: calc(100% /12 * 12);
+}
+
+.offset-11 {
+    margin-left: calc(100% / 12 * 11);
+}
+
+.offset-10 {
+    margin-left: calc(100% / 12 * 10);
+}
+
+.offset-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+
+.offset-8 {
+    margin-left: calc(100% / 12 * 8);
+}
+
+.offset-7 {
+    margin-left: calc(100% / 12 * 7);
+}
+
+.offset-6 {
+    margin-left: calc(100% / 12 * 6);
+}
+
+.offset-5 {
+    margin-left: calc(100% / 12 * 5);
+}
+
+.offset-4 {
+    margin-left: calc(100% / 12 * 4);
+}
+
+.offset-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+
+.offset-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+
+.offset-1 {
+    margin-left: calc(100% / 12 * 1);
+}
+
+.offset-0 {
+    margin-left: 0;
+}
+
+/*  justify */
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-beetween {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+
+
+
+.justify-items-baseline {
+    justify-items: baseline;
+}
+
+.justify-items-right {
+    justify-items: right;
+}
+
+.justify-items-left {
+    justify-items: left;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.justify-items-end {
+    justify-items: flex-end;
+}
+
+.justify-items-start {
+    justify-items: flex-start;
+}
+
+
+
+
+.justify-self-baseline {
+    justify-self: baseline;
+}
+
+.justify-self-right {
+    justify-self: right;
+}
+
+.justify-self-left {
+    justify-self: left;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-fend {
+    justify-self: flex-end;
+}
+
+.justify-self-fstart {
+    justify-self: flex-start;
+}
+
+
+
+/* align-items  */
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-fend {
+    align-items: flex-end;
+}
+
+.align-items-fstart {
+    align-items: flex-start;
+}
+
+
+
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-fend {
+    align-content: flex-end;
+}
+
+.align-content-fstart {
+    align-content: flex-start;
+}
+
+
+
+
+.align-self-around {
+    align-self: space-around;
+}
+
+.align-self-between {
+    align-self: space-between;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-fend {
+    align-self: flex-end;
+}
+
+.align-self-fstart {
+    align-self: flex-start;
+}
+
