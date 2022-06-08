@@ -13,10 +13,8 @@
 
 [class^="col"] > .row > [class^="col"] {
     background-color: goldenrod;
-    height: 40px
-}
-
-.big {
+    height: 40px;
     
 }
+
 
