@@ -17,6 +17,10 @@
     max-width: 100%;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /* Row */
 .row {
     display: flex;
@@ -162,7 +166,7 @@
     justify-content: center;
 }
 
-.justify-content-beetween {
+.justify-content-between {
     justify-content: space-between;
 }
 

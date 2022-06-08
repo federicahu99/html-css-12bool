@@ -1,19 +1,22 @@
 /* Body */
 
-.row {
-    margin: 0 -20px;
+.container {
+    margin: 20px auto;
 }
 
 .row > [class^="col"] {
     background-color: lightskyblue;
-    min-height: 50px;
+    min-height: 65px;
     border: 2px solid white;
+    padding: 10px 15px;
 }
 
-.col-6 > .row > [class^="col"] {
+[class^="col"] > .row > [class^="col"] {
     background-color: goldenrod;
-    padding: 5px;
-    min-height: 30px
+    height: 40px
 }
 
+.big {
+    
+}
 
