@@ -6,15 +6,20 @@
 
 .row > [class^="col"] {
     background-color: lightskyblue;
-    min-height: 65px;
+    max-height: 75px;
     border: 2px solid white;
     padding: 10px 15px;
+    width: 100%;
 }
 
 [class^="col"] > .row > [class^="col"] {
     background-color: goldenrod;
-    height: 40px;
-    
+    min-height: 40px;
 }
+
+.row > .big {
+    min-height: 120px;
+}
+
 
 
